@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="navbar">Books</h1>
+    <div id="n-book">
+        <div id="def-book">
+            <h2>Life of PI</h2>
+            <h3>-Pi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam excepturi et at?</p>
+            <button id="def-del" onclick="del(event)">Delete</button>
+        </div>
+
+    </div>
+    <button id="popbtn">+</button>
+    <div id="overlay">
+        <div id="pop">
+            <h2>Add</h2>
+                <input type="text" id="title" placeholder="Book Title">
+                <input type="text" id="author" placeholder="Book Author">
+                <textarea placeholder="Short Description" id="desc"></textarea>
+            <div class="btns">
+                <button id="add">Add</button>
+                <button id="can">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
